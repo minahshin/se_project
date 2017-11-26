@@ -6,9 +6,9 @@ public class Main {
 		int choice=0;
 		Scanner scan=new Scanner(System.in);
 		
-		//MemoManager memo=new MemoManager();
+		MemoManager memo=new MemoManager();
 		Calculator cal=new Calculator();
-		//AccountBook acc=new AccountBook();
+		AccountBook acc=new AccountBook();
 		
 		do{
 			System.out.println("---------- ∏ﬁ¿Œ ----------");
@@ -22,13 +22,13 @@ public class Main {
 			
 			switch(choice){
 			case 1:
-				cal.start();
+				memo.start();
 				break;
 			case 2:
 				cal.start();
 				break;
 			case 3:
-				cal.start();
+				acc.start();
 				break;
 			case 4 : 
 				System.exit(0);
